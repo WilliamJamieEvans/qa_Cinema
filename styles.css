@@ -1,7 +1,10 @@
 body {
   max-width: 100vw;
   margin: auto;
-  background-color: coral;
+  background-image: url("https://thumbs.dreamstime.com/z/watch-film-cinema-popcorn-clapperboard-yellow-background-top-view-movie-premiere-concept-153931954.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .qalogo {
@@ -13,7 +16,8 @@ body {
 }
 .cinema {
   width: 40vw;
-  margin: 20px;
+  margin: 25px;
+  margin-left: 35%;
 }
 
 .movie-poster {
@@ -24,11 +28,13 @@ body {
 
 .movies {
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
-  background-color: rgb(93, 53, 196);
-  padding: 35px;
+  background-color: black;
+  padding: 50px;
   width: 100vw;
 }
 
@@ -44,7 +50,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: rgb(241, 254, 0);
   text-decoration: none;
   font-weight: bold;
 }
@@ -57,7 +63,7 @@ label {
 }
 
 table {
-  border-style: outset;
+  border-style: ridge;
 }
 
 td {
@@ -79,10 +85,30 @@ td {
 }
 
 .formHolder {
-  border-style:ridge;
+  border-style: ridge;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding:40px;
+  padding: 40px;
 }
 
+p {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: red;
+  margin: 20px;
+  line-height: 20pt;
+}
+
+footer {
+  font-weight: lighter;
+}
+
+.photo1 {
+  margin-right: 50px;
+}
+
+h1 {
+  text-align: center;
+}
