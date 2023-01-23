@@ -1,1 +1,1 @@
-# qa_Cinema
+promote QA cienmas using 3 pages of Home page, schedule and sign up 
