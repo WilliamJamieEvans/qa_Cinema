@@ -10,58 +10,53 @@
   <link rel="stylesheet" href="../styles.css">
 
 </head>
-
 <body>
-  <nav>
-    <ul>
-      <li><a href="..//Pages/index.html">Home</a></li>
-      <li><a href="..//Pages/schedule.html">Schedule</a></li>
-      <li><a href="..//Pages/signup.html">Sign up</a></li>
-    </ul>
-  </nav>
-
-  <form>
-    <!-- Title
-        first name
-        last name
-        email
-        DOB
-        phone number
-        male or female
-        sign me up button -->
-    <label for="title">Title:</label>
-    <select name="title" id="title" required="required">
-      <option value="Mr">Mr.</option>
-      <option value="Mrs">Mrs.</option>
-      <option value="Ms">Ms.</option>
-      <option value="Miss">Miss.</option>
-      <option value="Dr">Dr.</option>
-    </select>
-    <br>
-    <label for="firstName">First Name:</label>
-    <input type="text" id="firstname" name="firstname" required="required">
-    <br>
-    <label for="lastName">Last Name:</label>
-    <input type="text" id="lastname" name="lastname" required="required">
-    <br>
-    <label for="email">Enter your email:</label>
-    <input type="email" id="email" name="email" required="required">
-    <br>
-    <label for="dob">Date of Birth:</label>
-    <input type="date" id="dob" name="dob">
-    <br>
-    <label for="phone">Enter your phone number:</label>
-    <input type="tel" id="phone" name="phone" pattern="[0-9]{}-[0-9]{3}-[0-9]{3}">
-    <br>
-    <br>
-    <label for="gender">Gender:</label>
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="Female">
-    <label for="female">Female</label>
-    <br>
-    <input type="submit" value="Sign me up!">
-  </form>
+    <nav>
+        <ul>
+          <li><a href="../Pages/home.html">Home</a></li>
+          <li><a href="../Pages/schedule.html">Schedule</a></li>
+          <li><a href="../Pages/signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+      <br>
+      <div>Placeholder for cinema image</div>
+      <br>
+      <div class="formHolder">
+      <form>
+        <label for="title">Title:</label>
+        <select name="title" id="title" required="required">
+          <option value="Mr">Mr.</option>
+          <option value="Mrs">Mrs.</option>
+          <option value="Ms">Ms.</option>
+          <option value="Miss">Miss.</option>
+          <option value="Dr">Dr.</option>
+        </select>
+        <br>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required="required">
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required="required">
+        <br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required="required">
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{}-[0-9]{3}-[0-9]{3}">
+        </br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        </br>
+        <input type="submit" value="Sign me up!">
+      </form>
+    </div>
 </body>
 
 </html>
