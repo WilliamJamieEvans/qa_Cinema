@@ -7,72 +7,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <link rel="stylesheet" href="..//styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <img class="qalogo" src="..//Images/QA_Logo_2019.png" alt="qa logo">
-      <li><a href="../Pages/index.html">Home</a></li>
-      <li><a href="../Pages/schedule.html">Schedule</a></li>
-      <li><a href="../Pages/signup.html">Sign up</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"></a> <img src="../Images/QA_Logo_2019.png" alt="qa logo" width="50px" />
+      <button class="navbar-toggler" style="margin-right: 5px !important" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse top_nav" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a href="../Pages/index.html" class="nav-link">Home </a></li>
+          <li class="nav-item"><a href="../Pages/schedule.html" class="nav-link">Schedule</a></li>
+          <li class="nav-item">
+            <a href="../Pages/signup.html" class="nav-link">Sign up</a>
+          </li>
+        </ul>
+        </ul>
+      </div>
+    </div>
   </nav>
-  <h1> <u> QA CINEMAS </u> </h1>
+  <br>
+  <br>
+
+  <h1><u> QA CINEMAS </u></h1>
 
   <div class="photo1">
-    <img class="cinema" src="..//Images/cinema1.jpeg" alt="image" />
-
+    <img class="cinema" src="../Images/cinema1.jpeg" alt="image" />
   </div>
   <section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt veniam ad ut error
-      hic voluptas tenetur libero nesciunt voluptatum? Corrupti sed error soluta, fugiat voluptatibus
-      maiores eum nobis dolorem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam atque id magni,
-      modi tenetur quisquam qui ipsum earum facilis quos beatae et nulla doloribus fugit quas optio vero
-      perspiciatis eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt veniam ad ut
-      error
-      hic voluptas tenetur libero nesciunt voluptatum? Corrupti sed error soluta, fugiat voluptatibus
-      maiores eum nobis dolorem? </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      deserunt veniam ad ut error hic voluptas tenetur libero nesciunt
+      voluptatum? Corrupti sed error soluta, fugiat voluptatibus maiores eum
+      nobis dolorem? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Quam atque id magni, modi tenetur quisquam qui ipsum earum facilis quos
+      beatae et nulla doloribus fugit quas optio vero perspiciatis eligendi.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      deserunt veniam ad ut error hic voluptas tenetur libero nesciunt
+      voluptatum? Corrupti sed error soluta, fugiat voluptatibus maiores eum
+      nobis dolorem?
+    </p>
   </section>
 
   <section class="movies">
     <table class="movie-frame">
       <tr>
         <td>
-          <img class="movie-poster" src="..//Images/61VLd-GBrBL._AC_SX425_.jpg" alt="Wolf of Wall Street">
+          <img class="movie-poster" src="../Images/61VLd-GBrBL._AC_SX425_.jpg" alt="Wolf of Wall Street" />
         </td>
         <td>
           <img class="movie-poster"
-            src="..//Images/MV5BNzlhY2NiNWItYTAyNS00YjhmLTgxNzgtZWNjMjQ4YmMyYmM4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
-            alt="Cocaine Bear">
+            src="../Images/MV5BNzlhY2NiNWItYTAyNS00YjhmLTgxNzgtZWNjMjQ4YmMyYmM4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+            alt="Cocaine Bear" />
         </td>
         <td>
-          <img class="movie-poster" src="..//Images/unnamed.jpeg" alt="Ferris Bueller's Day Off">
+          <img class="movie-poster" src="../Images/unnamed.jpeg" alt="Ferris Bueller's Day Off" />
         </td>
       </tr>
     </table>
   </section>
 
   <section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt veniam ad ut error
-      hic voluptas tenetur libero nesciunt voluptatum? Corrupti sed error soluta, fugiat voluptatibus
-      maiores eum nobis dolorem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam atque id magni,
-      modi tenetur quisquam qui ipsum earum facilis quos beatae et nulla doloribus fugit quas optio vero
-      perspiciatis eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt veniam ad ut
-      error
-      hic voluptas tenetur libero nesciunt voluptatum? Corrupti sed error soluta, fugiat voluptatibus
-      maiores eum nobis dolorem?
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      deserunt veniam ad ut error hic voluptas tenetur libero nesciunt
+      voluptatum? Corrupti sed error soluta, fugiat voluptatibus maiores eum
+      nobis dolorem? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Quam atque id magni, modi tenetur quisquam qui ipsum earum facilis quos
+      beatae et nulla doloribus fugit quas optio vero perspiciatis eligendi.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      deserunt veniam ad ut error hic voluptas tenetur libero nesciunt
+      voluptatum? Corrupti sed error soluta, fugiat voluptatibus maiores eum
+      nobis dolorem?
     </p>
   </section>
-
-
-
-
-
 </body>
 
 <footer>
-  <h6>Copyright QA Cinemas 2023 &copy </h6>
+  <h6>Copyright QA Cinemas 2023 &copy</h6>
 </footer>
 
 </html>
