@@ -17,7 +17,7 @@ body {
 .cinema {
   width: 40vw;
   margin: 25px;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 .movie-poster {
@@ -55,8 +55,11 @@ nav a {
   font-weight: bold;
 }
 
-input {
+input,
+select {
   margin: 5px;
+  border-radius: 5px;
+  height: 1.25rem;
 }
 label {
   margin: 5px;
@@ -86,10 +89,38 @@ td {
 
 .formHolder {
   border-style: ridge;
-  width: 80%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
+}
+
+.btn {
+  background-color: #2783df;
+  color: #fff;
+  border-radius: 10px;
+  height: 40px;
+  width: 125px;
+}
+
+.image {
+  border-width: 50px;
+  border-color: rgb(236, 9, 206);
+  height: 150px;
+  width: 110px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+
+.subButt {
+  margin: 10px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 p {
@@ -107,6 +138,10 @@ footer {
 
 .photo1 {
   margin-right: 50px;
+}
+
+h1 {
+  text-align: center;
 }
 
 h1 {
