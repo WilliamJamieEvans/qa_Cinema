@@ -55,7 +55,8 @@ nav a {
   font-weight: bold;
 }
 
-input, select {
+input,
+select {
   margin: 5px;
   border-radius: 5px;
   height: 1.25rem;
@@ -87,17 +88,16 @@ td {
 }
 
 .formHolder {
-  border-style:ridge;
+  border-style: ridge;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
 }
 
-
 .btn {
   background-color: #2783df;
-  color:#fff;
+  color: #fff;
   border-radius: 10px;
   height: 40px;
   width: 125px;
@@ -117,7 +117,7 @@ td {
 
 .subButt {
   margin: 10px;
-  position:absolute;
+  position: absolute;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -144,3 +144,6 @@ h1 {
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
