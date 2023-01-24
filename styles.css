@@ -20,8 +20,6 @@ body {
   margin-left: 35%;
 }
 
-
-
 .movies {
   max-height: 50%;
   width: 80%;
@@ -41,7 +39,7 @@ body {
 }
 
 nav {
-  background-color: black;
+  background-color: rgb(247, 245, 245);
   padding: 50px;
   width: 100vw;
 }
